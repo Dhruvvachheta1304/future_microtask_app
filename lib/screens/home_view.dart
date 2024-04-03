@@ -44,6 +44,7 @@ class _HomeViewState extends State<HomeView> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
+            Text('data'),
             Obx(
               () => Container(
                 alignment: Alignment.center,

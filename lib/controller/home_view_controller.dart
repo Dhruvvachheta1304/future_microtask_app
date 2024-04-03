@@ -11,6 +11,7 @@ class HomeViewController extends GetxController {
   bool get futureMicroTask => _futureMicrotask.value;
 
   void futureFunction() async {
+    print('object');
     // Second Priority
     Future(() {
       _simpleFuture.value = true;
